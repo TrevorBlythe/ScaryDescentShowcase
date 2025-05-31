@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Scary Descent VR</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #eee;
+    }
+    header {
+      background: #222;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .description {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    .screenshots {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .screenshots img {
+      width: 100%;
+      border-radius: 8px;
+      border: 2px solid #444;
+    }
+    .downloads {
+      margin-top: 2rem;
+    }
+    .downloads a {
+      display: inline-block;
+      margin-right: 1rem;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: #e63946;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+<header style="
+  background: url('header-bg.jpg') center center / cover no-repeat;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: white;
+">
+  <h1>Scary Descent VR</h1>
+  <p>Solo/Multiplayer horror VR!</p>
+</header>
+
+  <main>
+    <section class="description">
+      <p>
+        Scary Descent doesn't fake jumpscares. All deaths in the game happen in real time, no screen pop-ups, no teleport traps. The horror unfolds naturally in the environment, with threats that physically move, stalk, and interact within the same space as you You <strong>will</strong> feel fear, playing this game. This game is not recommended for people with epilepsy / heart problems.
+      </p>
+      <p>
+        I'm actively trying to fix all the bugs, send <strong>suggestions</strong> and <strong>bug reports</strong> via GitHub Issues!
+      </p>
+    </section>
+
+    <section class="screenshots">
+      <img src="screenshot1.jpg" alt="Screenshot 1" />
+      <img src="screenshot2.jpg" alt="Screenshot 2" />
+      <img src="screenshot3.jpg" alt="Screenshot 3" />
+      <!-- Add or replace with your actual screenshot image paths -->
+    </section>
+
+  <section class="downloads" style="background: white; color: black; padding: 1.5rem; border-radius: 8px;">
+    <h2 style="color: black;">Download Scary descent VR here: </h2>
+    <a href="https://www.meta.com/experiences/scary-descent/6030943683696648/" target="_blank" 
+       style="background: none; padding: 0; margin: 0; display: inline-block;">
+      <img src="https://static.xx.fbcdn.net/rsrc.php/y9/r/tL_v571NdZ0.svg" alt="Get it on Meta Quest" style="height: 50px; display: block;" />
+    </a>
+  </section>
+
+
+  </main>
+  <footer>
+ Built with Godot ❤️ | <a href="https://github.com/TrevorBlythe/ScaryDescentShowcase/tree/main" style="color:#aaa;">GitHub</a>
+  </footer>
+</body>
+</html>
